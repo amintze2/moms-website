@@ -9,118 +9,164 @@
 </head>
 <body>
 
-  <!-- Navigation -->
-  <header>
-    <div class="nav-inner">
-      <a href="index.html" class="nav-logo">
-        <span class="logo-name">Dawn Saks</span>
-        <span class="logo-title">MS, RDN, CDE &middot; Nutritionist</span>
-      </a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="biography.html" class="active">Biography</a></li>
-          <li><a href="practice-information.html">Practice Information</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="nav-toggle" aria-label="Open menu" onclick="document.getElementById('drawer').classList.toggle('open')">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav class="nav-drawer" id="drawer">
-      <a href="index.html">Home</a>
-      <a href="biography.html" class="active">Biography</a>
-      <a href="practice-information.html">Practice Information</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-name">Dawn Saks</span>
+      <span class="logo-sub">MS, RDN, CDE &middot; Nutritionist</span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html" class="active">Biography</a></li>
+        <li><a href="practice-information.html">Practice Information</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-  </header>
+    <a href="contact.html" class="btn btn-primary nav-cta" style="font-size:0.85rem; padding:10px 20px;">Get in Touch</a>
+    <button class="nav-toggle" aria-label="Open menu" onclick="document.getElementById('drawer').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-drawer" id="drawer">
+    <a href="index.html">Home</a>
+    <a href="biography.html" class="active">Biography</a>
+    <a href="practice-information.html">Practice Information</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <!-- Hero -->
-  <section class="hero">
+<section class="page-hero">
+  <div class="page-hero-dots"></div>
+  <div class="page-hero-inner">
+    <p class="eyebrow eyebrow-white">About Dawn</p>
     <h1>Biography</h1>
-    <p>About Dawn Saks, MS, RDN, CDE</p>
-  </section>
+    <p>Registered Dietitian, Certified Diabetes Educator, and nutrition expert serving Manhattan for over two decades.</p>
+  </div>
+</section>
 
-  <!-- Biography Content -->
-  <section class="section">
-    <div class="container">
-      <div class="two-col-wide" style="grid-template-columns: 260px 1fr;">
+<section class="section">
+  <div class="container">
+    <div class="bio-split">
+      <div class="bio-img-wrap">
+        <div class="bio-img-bg"></div>
+        <img src="images/dawn-headshot.jpg" alt="Dawn Saks, MS, RDN, CDE" class="bio-img" />
+      </div>
+      <div>
+        <p class="eyebrow">Dawn Saks, MS, RDN, CDE</p>
+        <h2 class="section-heading">About Dawn</h2>
 
-        <!-- Photo -->
-        <div>
-          <img
-            src="images/dawn-headshot.jpg"
-            alt="Dawn Saks, MS, RDN, CDE — Nutritionist"
-            class="bio-photo"
-          />
-        </div>
-
-        <!-- Text -->
-        <div class="bio-text">
-          <h2 class="section-title">Dawn Saks, MS, RDN, CDE</h2>
-          <div class="section-divider"></div>
-
+        <div class="bio-content">
           <p>
             Dawn Saks, MS, RDN, CDE is a nutritionist in private practice in Manhattan and is a Registered Dietitian accredited by the Academy of Nutrition and Dietetics. She is a nutrition consultant to physicians and patients specializing in wellness and the development of weight loss and weight management programs. Dawn provides nutrition counseling for patients with diabetes, heart disease, eating disorders, gastrointestinal disease, and other medical conditions.
           </p>
-
           <p>
             Dawn frequently lectures and conducts workshops on nutrition-related topics. She has also been quoted as a nutrition expert in numerous local and national publications.
           </p>
-
           <p>
             Dawn is also a Certified Diabetic Educator (CDE), as recognized by the National Board for Diabetes Educators. She counsels patients who have been diagnosed with pre-diabetes, Type 1 diabetes, Type 2 diabetes, and gestational diabetes. Dawn works closely with these patients to assess their needs, identify behavior goals, and educate them to manage their condition.
           </p>
-
           <p>
             Dawn received a Master's of Science degree in clinical nutrition from New York University, where she graduated with honors. She completed her dietetic residency at Beth Israel Medical Center in New York City and received a Bachelor's of Science degree from Syracuse University. Dawn lives in Manhattan with her husband and two daughters.
           </p>
+        </div>
 
-          <div class="bio-affiliations">
-            <h3>Professional Affiliations</h3>
-            <ul>
-              <li>Academy of Nutrition and Dietetics — Registered Dietitian</li>
-              <li>New York State Certified Dietitian-Nutritionist</li>
-              <li>The Greater New York Dietetic Association</li>
-              <li>National Board for Certified Diabetic Educators</li>
-            </ul>
-          </div>
+        <div class="bio-affiliations">
+          <h4>Professional Affiliations</h4>
+          <ul>
+            <li>Academy of Nutrition and Dietetics — Registered Dietitian</li>
+            <li>New York State Certified Dietitian-Nutritionist</li>
+            <li>The Greater New York Dietetic Association</li>
+            <li>National Board for Certified Diabetic Educators</li>
+          </ul>
+        </div>
 
+        <div style="margin-top: 36px;">
+          <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="footer-name">Dawn Saks</span>
-        <span class="footer-creds">MS, RDN, CDE &middot; Registered Dietitian &middot; Nutritionist</span>
-        <p>Private nutrition practice in Manhattan providing personalized counseling and wellness programs for over twenty years.</p>
+<!-- Education Cards -->
+<section class="section-cream">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:48px;">
+      <p class="eyebrow">Education &amp; Training</p>
+      <h2 class="section-heading">Academic background</h2>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <h3>New York University</h3>
+        <p>Master's of Science in Clinical Nutrition. Graduated with honors.</p>
       </div>
-      <div class="footer-contact">
-        <div class="footer-contact-item">
-          <strong>Address</strong>
-          11 Grand Central East, 16th Floor<br />New York, NY 10017
+      <div class="card">
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
         </div>
-        <div class="footer-contact-item">
-          <strong>Phone</strong>
-          <a href="tel:6467905700">(646) 790-5700</a>
+        <h3>Syracuse University</h3>
+        <p>Bachelor's of Science degree.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
         </div>
-        <div class="footer-contact-item">
-          <strong>Email</strong>
-          <a href="mailto:dawn@dawnsaks.com">dawn@dawnsaks.com</a>
-        </div>
+        <h3>Beth Israel Medical Center</h3>
+        <p>Dietetic residency, New York City.</p>
       </div>
     </div>
-    <div class="footer-bottom">
-      &copy; 2025 Dawn Saks, MS, RDN, CDE. All rights reserved.
+  </div>
+</section>
+
+<div class="cta-banner">
+  <div class="cta-banner-inner">
+    <h2>Ready to get started?</h2>
+    <p>Schedule your initial consultation with Dawn today.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-white">Contact Dawn</a>
+      <a href="tel:6467905700" class="btn btn-outline">Call (646) 790-5700</a>
     </div>
-  </footer>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="f-name">Dawn Saks</span>
+      <span class="f-creds">MS, RDN, CDE &middot; Registered Dietitian &middot; Nutritionist</span>
+      <p>Private nutrition practice in Midtown Manhattan providing personalized counseling and wellness programs for over twenty years.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="practice-information.html">Practice Information</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>11 Grand Central East, 16th Floor<br/>New York, NY 10017<br/><br/>
+      <a href="tel:6467905700">(646) 790-5700</a><br/>
+      <a href="mailto:dawn@dawnsaks.com">dawn@dawnsaks.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2025 Dawn Saks, MS, RDN, CDE. All rights reserved.</div>
+</footer>
 
 </body>
 </html>

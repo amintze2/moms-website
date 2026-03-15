@@ -4,106 +4,148 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Services — Dawn Saks, MS, RDN, CDE</title>
-  <meta name="description" content="Dawn Saks offers initial nutrition consultations and ongoing counseling sessions tailored to your individual health goals. Located in Midtown Manhattan." />
+  <meta name="description" content="Dawn Saks offers initial nutrition consultations and ongoing counseling sessions in Midtown Manhattan, tailored to your individual health goals." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Navigation -->
-  <header>
-    <div class="nav-inner">
-      <a href="index.html" class="nav-logo">
-        <span class="logo-name">Dawn Saks</span>
-        <span class="logo-title">MS, RDN, CDE &middot; Nutritionist</span>
-      </a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="biography.html">Biography</a></li>
-          <li><a href="practice-information.html">Practice Information</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="nav-toggle" aria-label="Open menu" onclick="document.getElementById('drawer').classList.toggle('open')">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav class="nav-drawer" id="drawer">
-      <a href="index.html">Home</a>
-      <a href="biography.html">Biography</a>
-      <a href="practice-information.html">Practice Information</a>
-      <a href="services.html" class="active">Services</a>
-      <a href="contact.html">Contact</a>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-name">Dawn Saks</span>
+      <span class="logo-sub">MS, RDN, CDE &middot; Nutritionist</span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="practice-information.html">Practice Information</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-  </header>
+    <a href="contact.html" class="btn btn-primary nav-cta" style="font-size:0.85rem; padding:10px 20px;">Get in Touch</a>
+    <button class="nav-toggle" aria-label="Open menu" onclick="document.getElementById('drawer').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-drawer" id="drawer">
+    <a href="index.html">Home</a>
+    <a href="biography.html">Biography</a>
+    <a href="practice-information.html">Practice Information</a>
+    <a href="services.html" class="active">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <!-- Hero -->
-  <section class="hero">
+<section class="page-hero">
+  <div class="page-hero-dots"></div>
+  <div class="page-hero-inner">
+    <p class="eyebrow eyebrow-white">What We Offer</p>
     <h1>Services</h1>
-    <p>Individualized nutrition counseling built around your goals and lifestyle</p>
-  </section>
+    <p>Individualized nutrition counseling built around your goals, your body, and your lifestyle.</p>
+  </div>
+</section>
 
-  <!-- Services -->
-  <section class="section">
-    <div class="container" style="max-width: 760px;">
-
-      <h2 class="section-title">What to Expect</h2>
-      <div class="section-divider"></div>
-      <p style="margin-bottom: 48px;">
-        Every patient receives a personalized plan based on their medical history, lifestyle, and health goals. Dawn works closely with your physicians to ensure nutrition care is integrated with your overall treatment.
-      </p>
-
+<!-- Services -->
+<section class="section">
+  <div class="container">
+    <div style="max-width:600px; margin-bottom:56px;">
+      <p class="eyebrow">Our Services</p>
+      <h2 class="section-heading">Every patient gets a plan built for them</h2>
+      <p class="section-sub">Dawn works closely with your physicians to ensure nutrition care is integrated with your overall treatment — not an afterthought.</p>
+    </div>
+    <div class="service-grid">
       <div class="service-card">
+        <div class="service-card-accent"></div>
+        <div class="card-icon" style="margin-bottom:20px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
+          </svg>
+        </div>
         <span class="service-duration">Approx. 60 minutes</span>
         <h3>Initial Consultation</h3>
-        <p>
-          Your first appointment is a comprehensive session where Dawn takes a complete dietary, medical, family, and weight history. She will measure you, calculate your BMI, and discuss your food preferences, daily routine, and health objectives. Together, you will develop a customized meal plan tailored to your specific needs and goals.
-        </p>
+        <p>Your first appointment is a comprehensive session where Dawn takes a complete dietary, medical, family, and weight history. She measures you, calculates your BMI, and discusses your food preferences, daily routine, and health objectives. Together you develop a customized meal plan built around your specific needs and goals.</p>
       </div>
-
       <div class="service-card">
+        <div class="service-card-accent"></div>
+        <div class="card-icon" style="margin-bottom:20px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
         <span class="service-duration">Approx. 30 minutes</span>
         <h3>Continuing Counseling</h3>
-        <p>
-          Follow-up appointments are scheduled on a weekly, monthly, or intermittent basis depending on your individual needs. Sessions include dietary guidance, review of your food journal, and open discussion about life circumstances that may affect your nutrition. Once you have reached your goals, Dawn will work with you to develop a long-term maintenance plan and provide ongoing support.
-        </p>
-      </div>
-
-      <div style="margin-top: 16px;">
-        <a href="contact.html" class="btn">Get in Touch</a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <span class="footer-name">Dawn Saks</span>
-        <span class="footer-creds">MS, RDN, CDE &middot; Registered Dietitian &middot; Nutritionist</span>
-        <p>Private nutrition practice in Manhattan providing personalized counseling and wellness programs for over twenty years.</p>
-      </div>
-      <div class="footer-contact">
-        <div class="footer-contact-item">
-          <strong>Address</strong>
-          11 Grand Central East, 16th Floor<br />New York, NY 10017
-        </div>
-        <div class="footer-contact-item">
-          <strong>Phone</strong>
-          <a href="tel:6467905700">(646) 790-5700</a>
-        </div>
-        <div class="footer-contact-item">
-          <strong>Email</strong>
-          <a href="mailto:dawn@dawnsaks.com">dawn@dawnsaks.com</a>
-        </div>
+        <p>Follow-up appointments are scheduled on a weekly, monthly, or intermittent basis depending on your needs. Sessions include dietary guidance, food journal review, and discussion of life circumstances affecting your nutrition. Once you reach your goals, Dawn builds a long-term maintenance plan to help you stay on track.</p>
       </div>
     </div>
-    <div class="footer-bottom">
-      &copy; 2025 Dawn Saks, MS, RDN, CDE. All rights reserved.
+  </div>
+</section>
+
+<!-- What to Expect -->
+<section class="section-cream">
+  <div class="container">
+    <div style="text-align:center; max-width:520px; margin:0 auto 56px;">
+      <p class="eyebrow">The Process</p>
+      <h2 class="section-heading">What to expect</h2>
     </div>
-  </footer>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Book Your First Appointment</h3>
+        <p>Call or email to schedule your initial 60-minute consultation at our Midtown Manhattan office.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Build Your Personalized Plan</h3>
+        <p>Dawn reviews your full health history and collaborates with you to create a realistic, sustainable meal plan.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Follow Up &amp; Refine</h3>
+        <p>Regular check-ins keep you accountable and allow your plan to evolve as your health and lifestyle change.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-banner">
+  <div class="cta-banner-inner">
+    <h2>Ready to schedule your first appointment?</h2>
+    <p>Reach out today and take the first step toward a healthier lifestyle.</p>
+    <div class="cta-actions">
+      <a href="contact.html" class="btn btn-white">Schedule Now</a>
+      <a href="tel:6467905700" class="btn btn-outline">Call (646) 790-5700</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="f-name">Dawn Saks</span>
+      <span class="f-creds">MS, RDN, CDE &middot; Registered Dietitian &middot; Nutritionist</span>
+      <p>Private nutrition practice in Midtown Manhattan providing personalized counseling and wellness programs for over twenty years.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="practice-information.html">Practice Information</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>11 Grand Central East, 16th Floor<br/>New York, NY 10017<br/><br/>
+      <a href="tel:6467905700">(646) 790-5700</a><br/>
+      <a href="mailto:dawn@dawnsaks.com">dawn@dawnsaks.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2025 Dawn Saks, MS, RDN, CDE. All rights reserved.</div>
+</footer>
 
 </body>
 </html>
