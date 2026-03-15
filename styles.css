@@ -516,15 +516,15 @@ header {
   display: grid;
   grid-template-columns: 400px 1fr;
   gap: 72px;
-  align-items: center;
+  align-items: start;
 }
 .bio-img-wrap { position: relative; }
 .bio-img-bg {
   position: absolute;
-  bottom: -20px;
-  left: -20px;
-  right: 20px;
-  top: 20px;
+  bottom: -16px;
+  left: -16px;
+  right: 16px;
+  top: 0;
   background: var(--green-light);
   border-radius: var(--radius);
   z-index: 0;
