@@ -9,12 +9,11 @@
 </head>
 <body>
 
-<!-- ===================== NAV ===================== -->
+<!-- NAV -->
 <header>
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <span class="logo-name">Dawn Saks</span>
-      <span class="logo-sub">MS, RDN, CDE &middot; Nutritionist</span>
+      <img src="images/ds-logo.jpg" alt="Dawn Saks, MS, RDN, CDE — Nutritionist" class="nav-logo-img" />
     </a>
     <nav>
       <ul class="nav-links">
@@ -25,7 +24,7 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <a href="contact.html" class="btn btn-primary nav-cta" style="font-size:0.85rem; padding:10px 20px;">Get in Touch</a>
+    <a href="contact.html" class="btn btn-primary nav-cta" style="font-size:0.85rem; padding:10px 22px;">Get in Touch</a>
     <button class="nav-toggle" aria-label="Open menu" onclick="document.getElementById('drawer').classList.toggle('open')">
       <span></span><span></span><span></span>
     </button>
@@ -39,41 +38,48 @@
   </nav>
 </header>
 
-<!-- ===================== HERO ===================== -->
+<!-- HERO — food background, no headshot -->
 <section class="hero">
+  <div class="hero-overlay"></div>
   <div class="hero-dots"></div>
-  <div class="hero-glow"></div>
-  <div class="hero-content">
-    <div>
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        Manhattan, New York City
-      </div>
-      <h1>
-        Nutrition that works<br/>
-        for <em>your</em> life
-      </h1>
-      <p class="hero-sub">
-        Personalized, evidence-based nutrition counseling from a Registered Dietitian with over 20 years of experience helping patients achieve lasting health goals.
-      </p>
-      <div class="hero-actions">
-        <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
-        <a href="services.html" class="btn btn-outline">See Our Services</a>
-      </div>
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Private Practice · Midtown Manhattan
     </div>
-    <div class="hero-photo-wrap">
-      <div class="hero-photo-bg"></div>
-      <img src="images/dawn-headshot.jpg" alt="Dawn Saks, MS, RDN, CDE" class="hero-photo" />
-      <div class="hero-float-card">
-        <div class="card-label">Experience</div>
-        <div class="card-value">20+ Years</div>
-        <div class="card-sub">Private Practice · Manhattan</div>
+    <h1>
+      Nutrition that works<br/>
+      for <em>your</em> life
+    </h1>
+    <p class="hero-sub">
+      Personalized, evidence-based nutrition counseling from a Registered Dietitian with over 20 years of experience helping patients achieve lasting health goals.
+    </p>
+    <div class="hero-actions">
+      <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+      <a href="services.html" class="btn btn-outline">See Our Services</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat-item">
+        <span class="hero-stat-value">20+</span>
+        <span class="hero-stat-label">Years in Practice</span>
+      </div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-value">RDN</span>
+        <span class="hero-stat-label">Registered Dietitian</span>
+      </div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-value">CDE</span>
+        <span class="hero-stat-label">Certified Diabetes Educator</span>
+      </div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-value">NYC</span>
+        <span class="hero-stat-label">Grand Central Area</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== TRUST STRIP ===================== -->
+<!-- TRUST STRIP -->
 <div class="trust-strip">
   <div class="trust-strip-inner">
     <div class="trust-pill">
@@ -90,16 +96,16 @@
     </div>
     <div class="trust-pill">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Midtown Manhattan
+      11 Grand Central East, NYC
     </div>
     <div class="trust-pill">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-      NYU Master's, Honors Graduate
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      NYU Master's · Honors Graduate
     </div>
   </div>
 </div>
 
-<!-- ===================== WHY SECTION ===================== -->
+<!-- WHY SECTION -->
 <section class="section">
   <div class="container">
     <div style="max-width:600px; margin-bottom:52px;">
@@ -110,27 +116,21 @@
     <div class="card-grid">
       <div class="card">
         <div class="card-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
-          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
         </div>
         <h3>Individual Counseling</h3>
         <p>One-on-one sessions tailored to your medical history, food preferences, and personal health goals — no cookie-cutter plans.</p>
       </div>
       <div class="card">
         <div class="card-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/>
-          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/></svg>
         </div>
         <h3>Evidence-Based Practice</h3>
         <p>Grounded in clinical research and accredited by the Academy of Nutrition and Dietetics. Science-backed advice you can trust.</p>
       </div>
       <div class="card">
         <div class="card-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         </div>
         <h3>Long-Term Results</h3>
         <p>Sustainable changes over quick fixes. Dawn helps patients build habits that last, with ongoing support every step of the way.</p>
@@ -139,7 +139,19 @@
   </div>
 </section>
 
-<!-- ===================== PRACTICE AREAS ===================== -->
+<!-- IMAGE FEATURE — fresh food photo + about text -->
+<div class="img-feature">
+  <div class="img-feature-photo" style="background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80');"></div>
+  <div class="img-feature-text" style="background: var(--cream);">
+    <p class="eyebrow">About Dawn</p>
+    <h2 class="section-heading">20 years helping patients eat better and live well</h2>
+    <p>Dawn Saks, MS, RDN, CDE is a Registered Dietitian accredited by the Academy of Nutrition and Dietetics and a Certified Diabetes Educator. She holds a Master's degree in clinical nutrition from NYU, graduating with honors.</p>
+    <p>Dawn consults for physicians and patients across Manhattan, specializing in weight management, diabetes, and chronic condition care.</p>
+    <a href="biography.html" class="btn btn-primary">Read Her Biography</a>
+  </div>
+</div>
+
+<!-- PRACTICE AREAS -->
 <section class="section-cream">
   <div class="container">
     <div style="text-align:center; max-width:560px; margin:0 auto 52px;">
@@ -149,67 +161,35 @@
     </div>
     <div class="area-grid">
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg></div>
         <h4>Weight Loss &amp; Management</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>
         <h4>Cholesterol &amp; Triglycerides</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <h4>Diabetes Management</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
         <h4>Gastrointestinal Disorders</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
         <h4>Eating Disorders</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
         <h4>Hypertension Treatment</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>
         <h4>Wellness Programs</h4>
       </div>
       <div class="area-card">
-        <div class="area-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2a7 7 0 017 7c0 4-7 13-7 13S5 13 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2.5"/>
-          </svg>
-        </div>
+        <div class="area-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#006738" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 017 7c0 4-7 13-7 13S5 13 5 9a7 7 0 017-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
         <h4>Pregnancy &amp; Pediatric Nutrition</h4>
       </div>
     </div>
@@ -219,7 +199,7 @@
   </div>
 </section>
 
-<!-- ===================== HOW IT WORKS ===================== -->
+<!-- HOW IT WORKS -->
 <section class="section">
   <div class="container">
     <div style="text-align:center; max-width:520px; margin:0 auto 60px;">
@@ -246,30 +226,30 @@
   </div>
 </section>
 
-<!-- ===================== ABOUT TEASER ===================== -->
-<section class="section-cream">
-  <div class="container">
-    <div class="bio-split">
-      <div class="bio-img-wrap">
-        <div class="bio-img-bg"></div>
-        <img src="images/dawn-headshot.jpg" alt="Dawn Saks, Nutritionist" class="bio-img" />
-      </div>
-      <div>
-        <p class="eyebrow">Meet Dawn</p>
-        <h2 class="section-heading">20 years of helping patients eat better and live well</h2>
-        <p style="color:var(--muted); line-height:1.8; margin-bottom:16px;">
-          Dawn Saks, MS, RDN, CDE is a Registered Dietitian accredited by the Academy of Nutrition and Dietetics and a Certified Diabetes Educator. She holds a Master's degree in clinical nutrition from NYU, where she graduated with honors.
-        </p>
-        <p style="color:var(--muted); line-height:1.8; margin-bottom:32px;">
-          Dawn has been quoted as a nutrition expert in numerous local and national publications and regularly lectures and conducts workshops on nutrition-related topics.
-        </p>
-        <a href="biography.html" class="btn btn-primary">Read Full Biography</a>
-      </div>
+<!-- IMAGE FEATURE — location / consultation feel -->
+<div class="img-feature">
+  <div class="img-feature-text" style="background: var(--dark);">
+    <p class="eyebrow" style="color: rgba(122,169,87,0.9);">Location</p>
+    <h2 class="section-heading" style="color: var(--white);">Conveniently located in Midtown Manhattan</h2>
+    <p style="color: rgba(255,255,255,0.65);">11 Grand Central East (formerly 733 Third Avenue), 16th Floor — between 45th and 46th Streets, steps from Grand Central Terminal.</p>
+    <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:32px;">
+      <div style="color:rgba(255,255,255,0.8); font-size:0.95rem;">📞 <a href="tel:6467905700" style="color:rgba(255,255,255,0.8);">(646) 790-5700</a></div>
+      <div style="color:rgba(255,255,255,0.8); font-size:0.95rem;">✉️ <a href="mailto:dawn@dawnsaks.com" style="color:rgba(255,255,255,0.8);">dawn@dawnsaks.com</a></div>
     </div>
+    <a href="contact.html" class="btn btn-primary">Get Directions &amp; Contact</a>
   </div>
-</section>
+  <div style="min-height:420px; overflow:hidden;">
+    <iframe
+      style="width:100%; height:100%; min-height:420px; border:none; display:block;"
+      src="https://maps.google.com/maps?q=40.752850,-73.972180&z=15&output=embed"
+      allowfullscreen
+      loading="lazy"
+      title="Office location"
+    ></iframe>
+  </div>
+</div>
 
-<!-- ===================== CTA BANNER ===================== -->
+<!-- CTA BANNER -->
 <div class="cta-banner">
   <div class="cta-banner-inner">
     <p class="eyebrow eyebrow-white">Ready to Start?</p>
@@ -282,12 +262,11 @@
   </div>
 </div>
 
-<!-- ===================== FOOTER ===================== -->
+<!-- FOOTER -->
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <span class="f-name">Dawn Saks</span>
-      <span class="f-creds">MS, RDN, CDE &middot; Registered Dietitian &middot; Nutritionist</span>
+      <img src="images/ds-logo.jpg" alt="Dawn Saks Nutritionist" style="height:48px; width:auto; margin-bottom:16px; filter: brightness(0) invert(1);" />
       <p>Private nutrition practice in Midtown Manhattan providing personalized counseling and wellness programs for over twenty years.</p>
     </div>
     <div class="footer-col">
@@ -302,17 +281,12 @@
     </div>
     <div class="footer-col">
       <h4>Contact</h4>
-      <p>
-        11 Grand Central East, 16th Floor<br/>
-        New York, NY 10017<br/><br/>
-        <a href="tel:6467905700">(646) 790-5700</a><br/>
-        <a href="mailto:dawn@dawnsaks.com">dawn@dawnsaks.com</a>
-      </p>
+      <p>11 Grand Central East, 16th Floor<br/>New York, NY 10017<br/><br/>
+      <a href="tel:6467905700">(646) 790-5700</a><br/>
+      <a href="mailto:dawn@dawnsaks.com">dawn@dawnsaks.com</a></p>
     </div>
   </div>
-  <div class="footer-bottom">
-    &copy; 2025 Dawn Saks, MS, RDN, CDE. All rights reserved.
-  </div>
+  <div class="footer-bottom">&copy; 2025 Dawn Saks, MS, RDN, CDE. All rights reserved.</div>
 </footer>
 
 </body>
